@@ -7,34 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLOR</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a84593e805.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Navbar Section -->
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">COLOR</a>
-            <div class="navbar__toggle" id="mobile-menu">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">COLOR</a>
+            <div class="navbar_toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home">Home</a>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home">Home</a>
                 </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about">About</a>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about">About</a>
                 </li>
-                <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="home">Services</a>
+                <li class="navbar_item">
+                    <a href="#services" class="navbar_links" id="home">Services</a>
                 </li>
-                <li class="navbar__btn">
+                <li class="navbar_btn">
                     <a href="#sign-up" class="button" id="sign-up">Sign Up</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Main Section -->
+    <div class="main" id="home">
+        <div class="main_container">
+            <h1 class="main_heading">Choose your <span>colors</span> </h1>
+            <p class="main_description">Unlimited Possibilities</p>
+            <button class="main_btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main_container">
+            <div class="main_img_container">
+                <div class="main_img_card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="main_content">
+                <h1>What do we do?</h1>
+                <h2>We help businesses scale</h2>
+                <p>Schedule a call to learn more about our services</p>
+            <button class="main_btn"><a href="#">Schedule Call</a></button>
+            </div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
